@@ -69,7 +69,7 @@ caps.twitter.com^partitionKey=%28https%2Ctwitter.com%29	1	19614	2325863600811,1,
 raw.githubusercontent.com^partitionKey=%28https%2Craw.githubusercontent.com%29	0	19614	1726266360019,1,0
 duckduckgo.com^firstPartyDomain=ddg.search.suggestions.mozilla	0	19612	1726081533044,1,0
 skeditor-server-app.skiff.com^partitionKey=%28https%2Cskiff.com%29	0	19613	1726174628769,1,1
-developer.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1757803570731,1,0
+developer.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1757806461667,1,0
 extensionworkshop.com	0	19614	1726266722255,1,1
 partiful.com^partitionKey=%28https%2Cpartiful.com%29	0	19614	1757800340313,1,0
 www.google.com^partitionKey=%28https%2Cgoogle.com%29	3	19614	1726005760192,1,0
@@ -111,7 +111,7 @@ publicsuffix.org	0	19612	1710097445848,1,1
 www.google.com^firstPartyDomain=google-b-1-d.search.suggestions.mozilla	1	19612	1726005759037,1,0
 www.microsoft.com^partitionKey=%28https%2Cmicrosoft.com%29	0	19612	1726082443930,1,0
 marketplace.visualstudio.com^partitionKey=%28https%2Cvisualstudio.com%29	0	19612	1726026696530,1,1
-addons.mozilla.org	2	19614	1726265278260,1,1
+addons.mozilla.org	2	19614	1726270304333,1,1
 www.kraken.com^partitionKey=%28https%2Ckraken.com%29	0	19613	1726174265728,1,1
 system76.com	0	19613	1726171014311,1,0
 substackcdn.com	0	19613	1726164959655,1,0
