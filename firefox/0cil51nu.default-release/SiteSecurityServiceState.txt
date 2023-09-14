@@ -14,7 +14,7 @@ zapper.fi^partitionKey=%28https%2Czapper.fi%29	0	19613	1757712166618,1,0
 launchpad.net^partitionKey=%28https%2Claunchpad.net%29	0	19612	1710029718537,1,0
 addons.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1726265378396,1,0
 incoming.telemetry.mozilla.org	3	19614	1726265423197,1,0
-vscode.dev^partitionKey=%28https%2Cvscode.dev%29	0	19612	1726085612520,1,1
+vscode.dev^partitionKey=%28https%2Cvscode.dev%29	1	19614	1726267065355,1,1
 tasks-pa.clients6.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19614	1705524691680,1,1
 packages.microsoft.com^partitionKey=%28https%2Cmicrosoft.com%29	0	19612	1726082451124,1,1
 extensionworkshop.com^partitionKey=%28https%2Cextensionworkshop.com%29	0	19614	1726266721711,1,1
@@ -25,6 +25,7 @@ askubuntu.com^partitionKey=%28https%2Caskubuntu.com%29	1	19613	1710194887868,1,0
 cache.agilebits.com	1	19613	1757707479928,1,1
 links.duckduckgo.com^partitionKey=%28https%2Cduckduckgo.com%29	2	19614	1726265002219,1,0
 api.github.com^partitionKey=%28https%2Cgithub.com%29	1	19612	1726005790308,1,1
+wiki.archlinux.org^partitionKey=%28https%2Carchlinux.org%29	0	19614	1726267213776,1,1
 dl.flathub.org^partitionKey=%28https%2Cflathub.org%29	0	19613	1726201457127,1,0
 flathub.org^partitionKey=%28https%2Cflathub.org%29	0	19613	1726201454609,1,0
 cdn.statically.io	0	19612	1726081470388,1,1
@@ -66,7 +67,7 @@ caps.twitter.com^partitionKey=%28https%2Ctwitter.com%29	1	19614	2325863600811,1,
 raw.githubusercontent.com^partitionKey=%28https%2Craw.githubusercontent.com%29	0	19614	1726266360019,1,0
 duckduckgo.com^firstPartyDomain=ddg.search.suggestions.mozilla	0	19612	1726081533044,1,0
 skeditor-server-app.skiff.com^partitionKey=%28https%2Cskiff.com%29	0	19613	1726174628769,1,1
-developer.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1757802333081,1,0
+developer.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1757803570731,1,0
 extensionworkshop.com	0	19614	1726266722255,1,1
 partiful.com^partitionKey=%28https%2Cpartiful.com%29	0	19614	1757800340313,1,0
 www.google.com^partitionKey=%28https%2Cgoogle.com%29	3	19614	1726005760192,1,0
@@ -130,7 +131,7 @@ relay-proxy.skiff.com^partitionKey=%28https%2Cskiff.com%29	0	19613	1726174626345
 classify-client.services.mozilla.com	2	19614	1726252699292,1,0
 bcd.developer.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1710282211716,1,1
 guc3-spclient.spotify.com^partitionKey=%28https%2Cspotify.com%29	0	19612	1726082986563,1,0
-go.microsoft.com^partitionKey=%28https%2Cmicrosoft.com%29	0	19612	1726082450912,1,1
+go.microsoft.com^partitionKey=%28https%2Cmicrosoft.com%29	1	19614	1726267147171,1,1
 www.mozilla.org^partitionKey=%28http%2Cmozilla.org%29:HSTS	0	19611	1726005751886,1,0
 uniswap.org^partitionKey=%28https%2Cuniswap.org%29	0	19613	1710192474542,1,1
 graphql.accounts.firefox.com^partitionKey=%28https%2Cfirefox.com%29	0	19612	1726081421521,1,1
@@ -142,7 +143,7 @@ firefox.settings.services.mozilla.com	3	19614	1726264980646,1,0
 substack.com^partitionKey=%28https%2Csubstack.com%29	0	19613	1726164962967,1,0
 spocs.getpocket.com	1	19612	1757541752703,1,0
 account.system76.com^partitionKey=%28https%2Csystem76.com%29	0	19613	1726170966240,1,0
-code.visualstudio.com	0	19612	1726085562751,1,1
+code.visualstudio.com	1	19614	1726085562751,1,1
 discordapp.com^partitionKey=%28https%2Cdiscordapp.com%29	1	19613	1726175314370,1,1
 zapper.xyz^partitionKey=%28https%2Czapper.xyz%29	0	19613	1757712391885,1,0
 api.skiff.com^partitionKey=%28https%2Cskiff.com%29	0	19613	1726174627764,1,1
@@ -151,7 +152,7 @@ www.kraken.com	0	19613	1726174266867,1,1
 addons-pa.clients6.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19614	1705611005699,1,1
 my.1password.com	2	19614	1726170979911,1,1
 login.corp.google.com	2	19614	1702321678938,1,0
-code.visualstudio.com^partitionKey=%28https%2Cvisualstudio.com%29	0	19612	1726026692436,1,1
+code.visualstudio.com^partitionKey=%28https%2Cvisualstudio.com%29	1	19614	1726267147453,1,1
 zkmesh.substack.com^partitionKey=%28https%2Csubstack.com%29	0	19613	1726164680540,1,0
 assets-cms.kraken.com^partitionKey=%28https%2Ckraken.com%29	0	19613	1726174266241,1,1
 ton.twitter.com^partitionKey=%28https%2Ctwitter.com%29	2	19614	2325866854225,1,0
