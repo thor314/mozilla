@@ -17,6 +17,7 @@ incoming.telemetry.mozilla.org	3	19614	1726265423197,1,0
 vscode.dev^partitionKey=%28https%2Cvscode.dev%29	0	19612	1726085612520,1,1
 tasks-pa.clients6.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19614	1705524691680,1,1
 packages.microsoft.com^partitionKey=%28https%2Cmicrosoft.com%29	0	19612	1726082451124,1,1
+extensionworkshop.com^partitionKey=%28https%2Cextensionworkshop.com%29	0	19614	1726266721711,1,1
 www.eventbrite.com^partitionKey=%28https%2Ceventbrite.com%29	0	19613	1726176797614,1,1
 lu.ma^partitionKey=%28https%2Clu.ma%29	0	19613	1697232698239,1,0
 token-api.metaswap.codefi.network	0	19613	1710190821723,1,1
@@ -66,6 +67,7 @@ raw.githubusercontent.com^partitionKey=%28https%2Craw.githubusercontent.com%29	0
 duckduckgo.com^firstPartyDomain=ddg.search.suggestions.mozilla	0	19612	1726081533044,1,0
 skeditor-server-app.skiff.com^partitionKey=%28https%2Cskiff.com%29	0	19613	1726174628769,1,1
 developer.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1757802333081,1,0
+extensionworkshop.com	0	19614	1726266722255,1,1
 partiful.com^partitionKey=%28https%2Cpartiful.com%29	0	19614	1757800340313,1,0
 www.google.com^partitionKey=%28https%2Cgoogle.com%29	3	19614	1726005760192,1,0
 www.zotero.org^partitionKey=%28https%2Czotero.org%29	0	19612	1726083251744,1,1
@@ -112,7 +114,7 @@ substackcdn.com	0	19613	1726164959655,1,0
 openai.com^partitionKey=%28https%2Copenai.com%29	1	19614	1726087430917,1,1
 stackoverflow.com^partitionKey=%28https%2Cstackoverflow.com%29	0	19614	1710277382009,1,0
 peoplestack-pa.clients6.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19614	1705611006021,1,1
-www.amazon.com^partitionKey=%28https%2Camazon.com%29	0	19613	1742105437048,1,1
+www.amazon.com^partitionKey=%28https%2Camazon.com%29	1	19614	1742105437048,1,1
 app.uniswap.org	0	19613	1710192478540,1,1
 auth.tripsha.com^partitionKey=%28https%2Ctripsha.com%29	0	19613	1726176009493,1,1
 shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla	2	19614	1726258393357,1,1
