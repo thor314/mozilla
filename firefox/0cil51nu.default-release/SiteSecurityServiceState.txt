@@ -129,6 +129,7 @@ uniswap.org^partitionKey=%28https%2Cuniswap.org%29	0	19613	1710192474542,1,1
 graphql.accounts.firefox.com^partitionKey=%28https%2Cfirefox.com%29	0	19612	1726081421521,1,1
 watchtower.1password.com	2	19614	1726258395784,1,1
 api.twitter.com^partitionKey=%28https%2Ctwitter.com%29	2	19614	2325859669696,1,0
+partiful.com^partitionKey=%28https%2Cpartiful.com%29	0	19614	1757800340313,1,0
 calendar.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19614	1726174286031,1,1
 firefox.settings.services.mozilla.com	3	19614	1726178580336,1,0
 substack.com^partitionKey=%28https%2Csubstack.com%29	0	19613	1726164962967,1,0
@@ -144,5 +145,5 @@ login.corp.google.com	2	19614	1702321678938,1,0
 bnc.lt^partitionKey=%28https%2Cbnc.lt%29	0	19613	1726171640354,1,1
 zkmesh.substack.com^partitionKey=%28https%2Csubstack.com%29	0	19613	1726164680540,1,0
 assets-cms.kraken.com^partitionKey=%28https%2Ckraken.com%29	0	19613	1726174266241,1,1
-ton.twitter.com^partitionKey=%28https%2Ctwitter.com%29	1	19613	2325773296453,1,0
+ton.twitter.com^partitionKey=%28https%2Ctwitter.com%29	2	19614	2325866854225,1,0
 www.metalevel.at^partitionKey=%28https%2Cmetalevel.at%29	0	19613	1757700868815,1,1

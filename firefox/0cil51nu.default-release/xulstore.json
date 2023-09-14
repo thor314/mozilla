@@ -1,1 +1,1 @@
-{"chrome://browser/content/browser.xhtml":{"main-window":{"screenX":"940","screenY":"12","width":"960","height":"1048","sizemode":"maximized"},"sidebar-box":{"style":"--sidebar-background-color: rgb(29, 32, 33); --sidebar-text-color: rgb(233, 233, 233);"}}}
+{"chrome://browser/content/browser.xhtml":{"main-window":{"screenX":"-20","screenY":"12","width":"960","height":"1048","sizemode":"normal"},"sidebar-box":{"style":"--sidebar-background-color: rgb(29, 32, 33); --sidebar-text-color: rgb(233, 233, 233);","sidebarcommand":""},"sidebar-title":{"value":""}}}
