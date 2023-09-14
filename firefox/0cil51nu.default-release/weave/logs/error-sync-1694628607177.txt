@@ -1,0 +1,159 @@
+1694628591918	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1694628592724	Sync.AddonsReconciler	DEBUG	Add-on change: onEnabled to {99c277af-d778-4a0b-9faa-b1d8165f0a55}
+1694628592725	Sync.AddonsReconciler	DEBUG	Rectifying state for addon DarkTheme (version=4.3, id={99c277af-d778-4a0b-9faa-b1d8165f0a55})
+1694628592725	Sync.AddonsReconciler	DEBUG	Adding change because enabled state changed: {99c277af-d778-4a0b-9faa-b1d8165f0a55}
+1694628592725	Sync.AddonsReconciler	INFO	Change recorded for {99c277af-d778-4a0b-9faa-b1d8165f0a55}
+1694628592725	Sync.Engine.Addons.Tracker	DEBUG	changeListener invoked: 3 {99c277af-d778-4a0b-9faa-b1d8165f0a55}
+1694628592727	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1694628592738	Sync.AddonsReconciler	DEBUG	Add-on change: onDisabled to {c668b3da-af5a-423a-9d8e-8ec9d13f262b}
+1694628592738	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark Reader Theme Purple (version=1.0, id={c668b3da-af5a-423a-9d8e-8ec9d13f262b})
+1694628592738	Sync.AddonsReconciler	DEBUG	Adding change because enabled state changed: {c668b3da-af5a-423a-9d8e-8ec9d13f262b}
+1694628592738	Sync.AddonsReconciler	INFO	Change recorded for {c668b3da-af5a-423a-9d8e-8ec9d13f262b}
+1694628592738	Sync.Engine.Addons.Tracker	DEBUG	changeListener invoked: 4 {c668b3da-af5a-423a-9d8e-8ec9d13f262b}
+1694628592739	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1694628592840	Sync.SyncScheduler	DEBUG	Global Score threshold hit, triggering sync.
+1694628592840	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230824132758.desktop
+1694628592840	Sync.Service	INFO	Starting sync at 2023-09-13 11:09:52 in browser session t7qWbbiczjrk
+1694628592841	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1694628592843	Sync.Status	INFO	Resetting Status.
+1694628592843	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1694628592843	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694628594310	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1694628596621	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1694628596623	Sync.Engine.Tabs	INFO	Posting 1 records of 279 bytes with batch=true
+1694628596623	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694628596624	Sync.Collection	DEBUG	POST Length: 279
+1694628596989	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/info/collections
+1694628596989	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/info/configuration
+1694628596989	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694628597024	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/info/configuration
+1694628597024	Sync.Service	DEBUG	Fetching global metadata record
+1694628597024	Sync.Service	DEBUG	Weave Version: 1.119.0 Local Storage: 5 Remote Storage: 5
+1694628597024	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1694628597024	Sync.Service	INFO	Testing info/collections: {"addresses":1670716751.55,"extension-storage":1694628569.83,"tabs":1694628589.66,"forms":1694628569.34,"creditcards":1694313511.79,"clients":1694628568.87,"history":1694628569.7,"prefs":1694628589.36,"meta":1674087012.54,"bookmarks":1694548204.77,"addons":1694628591.4,"crypto":1644268057.05,"passwords":1679368437.5}
+1694628597024	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1644268057.05
+1694628597025	Sync.Synchronizer	DEBUG	Refreshing client list.
+1694628597025	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1694628597027	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694628598715	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1694628600224	Sync.AddonsReconciler	DEBUG	Add-on change: onEnabled to {490580e6-3cfc-4309-9fcd-ad15a2501c6b}
+1694628600224	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Pale Night (version=2.0, id={490580e6-3cfc-4309-9fcd-ad15a2501c6b})
+1694628600224	Sync.AddonsReconciler	DEBUG	Adding change because enabled state changed: {490580e6-3cfc-4309-9fcd-ad15a2501c6b}
+1694628600224	Sync.AddonsReconciler	INFO	Change recorded for {490580e6-3cfc-4309-9fcd-ad15a2501c6b}
+1694628600224	Sync.Engine.Addons.Tracker	DEBUG	changeListener invoked: 3 {490580e6-3cfc-4309-9fcd-ad15a2501c6b}
+1694628600228	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1694628600240	Sync.AddonsReconciler	DEBUG	Add-on change: onDisabled to {99c277af-d778-4a0b-9faa-b1d8165f0a55}
+1694628600240	Sync.AddonsReconciler	DEBUG	Rectifying state for addon DarkTheme (version=4.3, id={99c277af-d778-4a0b-9faa-b1d8165f0a55})
+1694628600240	Sync.AddonsReconciler	DEBUG	Adding change because enabled state changed: {99c277af-d778-4a0b-9faa-b1d8165f0a55}
+1694628600240	Sync.AddonsReconciler	INFO	Change recorded for {99c277af-d778-4a0b-9faa-b1d8165f0a55}
+1694628600240	Sync.Engine.Addons.Tracker	DEBUG	changeListener invoked: 4 {99c277af-d778-4a0b-9faa-b1d8165f0a55}
+1694628600240	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1694628600344	Sync.SyncScheduler	DEBUG	Global Score threshold hit, triggering sync.
+1694628600345	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230824132758.desktop
+1694628600345	Sync.Service	INFO	Starting sync at 2023-09-13 11:10:00 in browser session t7qWbbiczjrk
+1694628600345	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:45:5) JS Stack trace: LockException@util.sys.mjs:45:5
+throwLockException@util.sys.mjs:129:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1369:6
+sync/<@service.sys.mjs:1334:18
+WrappedCatch@util.sys.mjs:114:27
+sync@service.sys.mjs:1335:7
+1694628600346	Sync.Service	INFO	Cannot start sync: already syncing?
+1694628601694	Sync.Collection	DEBUG	POST fail 503 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/storage/tabs?batch=true&commit=true
+1694628601694	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/storage/tabs?batch=true&commit=true failed with status 503
+1694628601694	Sync.Engine.Tabs	DEBUG	Uploading records failed: 503
+1694628601695	Sync.Collection	WARN	Got exception parsing response body: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data(resource://services-sync/resource.sys.mjs:222:21) JS Stack trace: _processResponse/<@resource.sys.mjs:222:21
+format@Log.sys.mjs:639:19
+formatText@Log.sys.mjs:568:44
+format@Log.sys.mjs:586:12
+append@Log.sys.mjs:679:37
+append@logmanager.sys.mjs:137:44
+log@Log.sys.mjs:376:16
+warn@Log.sys.mjs:387:10
+_doQuickWrite@tabs.sys.mjs:308:17
+1694628601695	Sync.Collection	DEBUG	Parse fail: Response body starts: <html>
+<head><title>503 Service Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Se
+1694628601695	Sync.Engine.Tabs	WARN	quicksync sync failed: ({data:"<html>\n<head><title>503 Service Unavailable</title></head>\n<body bgcolor=\"white\">\n<center><h1>503 Service Cloudy: Try again later. </h1></center>\n</body>\n</html>\n", url:"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/storage/tabs?batch=true&commit=true", status:503, success:false, headers:{'alt-svc':"clear", 'content-length':"162", 'content-type':"text/html", date:"Wed, 13 Sep 2023 18:10:01 GMT", etag:"\"6501f870-a2\"", 'retry-after':"3600", server:"openresty/1.15.8.2", via:"1.1 google", 'x-firefox-spdy':"h2"}, get obj() {
+    [native code]
+}, failureCode:"error.engine.reason.record_upload_fail"})
+1694628602071	Sync.Collection	DEBUG	GET fail 503 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/storage/clients?full=1&limit=1000
+1694628602071	Sync.Collection	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/storage/clients?full=1&limit=1000 failed with status 503
+1694628602071	Sync.ErrorHandler	DEBUG	Got Retry-After: 3600
+1694628602071	Sync.Status	DEBUG	Status.sync: success.sync => error.sync.reason.serverMaintenance
+1694628602071	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1694628602071	Sync.SyncScheduler	DEBUG	Got backoff notification: 3600000ms
+1694628602072	Sync.SyncScheduler	DEBUG	Fuzzed minimum next sync: 1694632202071
+1694628602072	Sync.Status	DEBUG	Status for engine clients: error.engine.reason.record_download_fail
+1694628602072	Sync.Status	DEBUG	Status.service: error.sync.failed => error.sync.failed_partial
+1694628602072	Sync.Collection	WARN	Got exception parsing response body: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data(resource://services-sync/resource.sys.mjs:222:21) JS Stack trace: _processResponse/<@resource.sys.mjs:222:21
+format@Log.sys.mjs:639:19
+formatText@Log.sys.mjs:568:44
+format@Log.sys.mjs:586:12
+append@Log.sys.mjs:679:37
+append@logmanager.sys.mjs:137:44
+log@Log.sys.mjs:376:16
+debug@Log.sys.mjs:396:10
+observe@policies.sys.mjs:874:21
+observe@observers.sys.mjs:131:21
+notify@observers.sys.mjs:83:18
+notify@util.sys.mjs:185:19
+WrappedNotify@util.sys.mjs:195:17
+1694628602072	Sync.Collection	DEBUG	Parse fail: Response body starts: <html>
+<head><title>503 Service Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Se
+1694628602072	Sync.ErrorHandler	DEBUG	clients failed: ({data:"<html>\n<head><title>503 Service Unavailable</title></head>\n<body bgcolor=\"white\">\n<center><h1>503 Service Cloudy: Try again later. </h1></center>\n</body>\n</html>\n", url:"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/storage/clients?full=1&limit=1000", status:503, success:false, headers:{'alt-svc':"clear", 'content-length':"162", 'content-type':"text/html", date:"Wed, 13 Sep 2023 18:10:02 GMT", etag:"\"6501f870-a2\"", 'retry-after':"3600", server:"openresty/1.15.8.2", via:"1.1 google", 'x-firefox-spdy':"h2"}, get obj() {
+    [native code]
+}, failureCode:"error.engine.reason.record_download_fail"})
+1694628602073	Sync.Synchronizer	INFO	Updating enabled engines: 8 clients.
+1694628602074	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1694628602076	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1694628602076	Sync.Engine.Prefs	INFO	Uploading 1 outgoing records
+1694628602085	Sync.Engine.Prefs	INFO	Posting 1 records of 16595 bytes with batch=true
+1694628602086	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694628602086	Sync.Collection	DEBUG	POST Length: 16595
+1694628602839	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1694628603744	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: success.login, service: error.sync.failed_partial, sync: error.sync.reason.serverMaintenance>
+1694628606293	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1694628607161	Sync.Collection	DEBUG	POST fail 503 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/storage/prefs?batch=true&commit=true
+1694628607161	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/storage/prefs?batch=true&commit=true failed with status 503
+1694628607161	Sync.Engine.Prefs	DEBUG	Uploading records failed: 503
+1694628607164	Sync.ErrorHandler	DEBUG	Got Retry-After: 3600
+1694628607164	Sync.Status	DEBUG	Status.sync: error.sync.reason.serverMaintenance => error.sync.reason.serverMaintenance
+1694628607164	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => error.sync.failed
+1694628607164	Sync.SyncScheduler	DEBUG	Got backoff notification: 3600000ms
+1694628607164	Sync.SyncScheduler	DEBUG	Fuzzed minimum next sync: 1694632207164
+1694628607164	Sync.Status	DEBUG	Status for engine prefs: error.engine.reason.record_upload_fail
+1694628607164	Sync.Status	DEBUG	Status.service: error.sync.failed => error.sync.failed_partial
+1694628607165	Sync.Collection	WARN	Got exception parsing response body: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data(resource://services-sync/resource.sys.mjs:222:21) JS Stack trace: _processResponse/<@resource.sys.mjs:222:21
+format@Log.sys.mjs:639:19
+formatText@Log.sys.mjs:568:44
+format@Log.sys.mjs:586:12
+append@Log.sys.mjs:679:37
+append@logmanager.sys.mjs:137:44
+log@Log.sys.mjs:376:16
+debug@Log.sys.mjs:396:10
+observe@policies.sys.mjs:874:21
+observe@observers.sys.mjs:131:21
+notify@observers.sys.mjs:83:18
+notify@util.sys.mjs:185:19
+WrappedNotify@util.sys.mjs:195:17
+1694628607165	Sync.Collection	DEBUG	Parse fail: Response body starts: <html>
+<head><title>503 Service Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Se
+1694628607164	Sync.ErrorHandler	DEBUG	prefs failed: ({data:"<html>\n<head><title>503 Service Unavailable</title></head>\n<body bgcolor=\"white\">\n<center><h1>503 Service Cloudy: Try again later. </h1></center>\n</body>\n</html>\n", url:"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/storage/prefs?batch=true&commit=true", status:503, success:false, headers:{'alt-svc':"clear", 'content-length':"162", 'content-type':"text/html", date:"Wed, 13 Sep 2023 18:10:07 GMT", etag:"\"6501f887-a2\"", 'retry-after':"3600", server:"openresty/1.15.8.2", via:"1.1 google", 'x-firefox-spdy':"h2"}, get obj() {
+    [native code]
+}, failureCode:"error.engine.reason.record_upload_fail"})
+1694628607166	Sync.Synchronizer	INFO	Aborting sync for failure in prefs
+1694628607166	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1694628607167	Sync.Synchronizer	INFO	Sync completed at 2023-09-13 11:10:07 after 14.32 secs.
+1694628607167	Sync.Declined	DEBUG	Handling remote declined: []
+1694628607167	Sync.Declined	DEBUG	Handling local declined: []
+1694628607168	Sync.Declined	DEBUG	Declined changed? false
+1694628607168	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1694628607168	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1694628607169	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 4003794.6770146647 ms.
+1694628607169	Sync.SyncScheduler	DEBUG	Next sync in 4003794.6770146647 ms. (why=client-backoff-schedule)

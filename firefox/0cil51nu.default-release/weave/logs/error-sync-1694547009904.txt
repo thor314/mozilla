@@ -1,0 +1,60 @@
+1694547003337	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1694547008499	Sync.SyncScheduler	DEBUG	Global Score threshold hit, triggering sync.
+1694547008500	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230824132758.desktop
+1694547008500	Sync.Service	INFO	Starting sync at 2023-09-12 12:30:08 in browser session Te4ZJM-bCw2Z
+1694547008500	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1694547008504	Sync.Status	INFO	Resetting Status.
+1694547008505	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1694547008505	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694547008889	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/info/collections
+1694547008891	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/info/configuration
+1694547008892	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694547008933	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/info/configuration
+1694547008934	Sync.Service	DEBUG	Fetching global metadata record
+1694547008934	Sync.Service	DEBUG	Weave Version: 1.119.0 Local Storage: 5 Remote Storage: 5
+1694547008934	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1694547008934	Sync.Service	INFO	Testing info/collections: {"bookmarks":1694545422.55,"addons":1694546341.6,"addresses":1670716751.55,"passwords":1679368437.5,"creditcards":1694313511.79,"clients":1694547002.12,"tabs":1694547002.72,"history":1694547003.03,"forms":1694546446.08,"crypto":1644268057.05,"prefs":1694546402.3,"meta":1674087012.54,"extension-storage":1694547003.16}
+1694547008934	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1644268057.05
+1694547008934	Sync.Synchronizer	DEBUG	Refreshing client list.
+1694547008935	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1694547008937	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694547009463	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/storage/clients?full=1&limit=1000
+1694547009474	Sync.Engine.Clients	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 9 reconciled.
+1694547009475	Sync.Engine.Clients	DEBUG	Refreshing the known stale clients list
+1694547009476	Sync.Engine.Clients	INFO	Hiding stale client 2KCp57L280Fn - in known stale clients list
+1694547009477	Sync.Engine.Clients	INFO	Uploading 0 outgoing records
+1694547009478	Sync.Engine.Clients	WARN	Unexpected deviceType "tablet" recording device telemetry.
+1694547009479	Sync.Synchronizer	INFO	Updating enabled engines: 7 clients.
+1694547009481	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1694547009483	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1694547009483	Sync.Engine.Prefs	INFO	Uploading 0 outgoing records
+1694547009488	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1694547009488	Sync.Engine.Passwords	INFO	Uploading 0 outgoing records
+1694547009507	Sync.Engine.Tabs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1694547009509	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1694547009510	Sync.Engine.Tabs	INFO	Posting 1 records of 279 bytes with batch=true
+1694547009511	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694547009512	Sync.Collection	DEBUG	POST Length: 279
+1694547009897	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/storage/tabs?batch=true&commit=true failed: [Exception... "The connection was established, but no data was ever received"  nsresult: "0x804b0014 (NS_ERROR_NET_RESET)"  location: "<unknown>"  data: no] No traceback available
+1694547009897	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1694547009897	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1694547009897	Sync.Status	DEBUG	Status for engine tabs: error.engine.reason.unknown_fail
+1694547009897	Sync.Status	DEBUG	Status.service: error.sync.failed => error.sync.failed_partial
+1694547009897	Sync.ErrorHandler	DEBUG	tabs failed: [Exception... "The connection was established, but no data was ever received"  nsresult: "0x804b0014 (NS_ERROR_NET_RESET)"  location: "<unknown>"  data: no] No traceback available
+1694547009899	Sync.Engine.Bookmarks.BookmarkSyncUtils	DEBUG	pushChanges: Processed change records: {"weak":0,"skipped":0,"updated":0}
+1694547009899	Sync.Status	DEBUG	Status for engine bookmarks: error.engine.reason.unknown_fail
+1694547009899	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => error.sync.failed_partial
+1694547009899	Sync.ErrorHandler	DEBUG	bookmarks was interrupted due to the application shutting down
+1694547009899	Sync.Synchronizer	INFO	bookmarks was interrupted by shutdown; no other engines will sync
+1694547009900	Sync.Synchronizer	INFO	Aborting sync for failure in bookmarks
+1694547009900	Sync.Doctor	INFO	Skipping check of prefs - disabled via preferences
+1694547009900	Sync.Doctor	INFO	Skipping check of passwords - disabled via preferences
+1694547009900	Sync.Doctor	INFO	Skipping check of tabs - disabled via preferences
+1694547009900	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1694547009900	Sync.Synchronizer	INFO	Sync completed at 2023-09-12 12:30:09 after 1.40 secs.
+1694547009900	Sync.Declined	DEBUG	Handling remote declined: []
+1694547009900	Sync.Declined	DEBUG	Handling local declined: []
+1694547009901	Sync.Declined	DEBUG	Declined changed? false
+1694547009901	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1694547009901	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1694547009902	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)

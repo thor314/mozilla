@@ -1,0 +1,140 @@
+1694718253441	Sync.LogManager	DEBUG	Flushing file log
+1694718253442	Sync.LogManager	ERROR	Failed to copy log stream to file: UnknownError: Could not create directory at /home/thor/.mozilla/firefox/0cil51nu.default-release/weave/logs: NS_ERROR_FAILURE No traceback available
+1694718253442	Sync.LogManager	DEBUG	Log cleanup threshold time: 1693854253442
+1694718253443	Sync.LogManager	ERROR	Failed to cleanup logs: NotFoundError: Could not get children of file(/home/thor/.mozilla/firefox/0cil51nu.default-release/weave/logs) because it does not exist No traceback available
+1694718853737	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230824132758.desktop
+1694718853737	Sync.Service	INFO	Starting sync at 2023-09-14 12:14:13 in browser session _bhrRmSS646t
+1694718853737	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1694718853751	Sync.Status	INFO	Resetting Status.
+1694718853751	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => success.status_ok
+1694718853752	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1694718853752	FirefoxAccounts	DEBUG	getOAuthToken enter
+1694718853753	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1694718853753	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1694718853754	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1694718853876	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/info/collections
+1694718853877	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/info/configuration
+1694718853914	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/info/configuration
+1694718853915	Sync.Service	DEBUG	Fetching global metadata record
+1694718853915	Sync.Service	DEBUG	Weave Version: 1.119.0 Local Storage: 5 Remote Storage: 5
+1694718853915	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1694718853915	Sync.Service	INFO	Testing info/collections: {"bookmarks":1694548204.77,"addresses":1670716751.55,"creditcards":1694313511.79,"history":1694718253.34,"crypto":1644268057.05,"addons":1694716572.1,"forms":1694717173.97,"passwords":1679368437.5,"clients":1694716569.61,"tabs":1694718462.41,"extension-storage":1694636286.15,"prefs":1694716571.87,"meta":1674087012.54}
+1694718853915	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1644268057.05
+1694718853915	Sync.Synchronizer	DEBUG	Refreshing client list.
+1694718853916	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1694718853979	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/storage/clients?full=1&limit=1000
+1694718853991	Sync.Engine.Clients	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 10 reconciled.
+1694718853991	Sync.Engine.Clients	DEBUG	Refreshing the known stale clients list
+1694718853993	Sync.Engine.Clients	INFO	Hiding stale client 2KCp57L280Fn - in known stale clients list
+1694718853994	Sync.Engine.Clients	INFO	Uploading 0 outgoing records
+1694718853994	Sync.Engine.Clients	WARN	Unexpected deviceType "tablet" recording device telemetry.
+1694718853996	Sync.Synchronizer	INFO	Updating enabled engines: 8 clients.
+1694718853997	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1694718853998	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1694718853999	Sync.Engine.Prefs	INFO	Uploading 0 outgoing records
+1694718854004	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1694718854004	Sync.Engine.Passwords	INFO	Uploading 0 outgoing records
+1694718854118	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/storage/tabs?newer=1694718253.13&full=1&limit=1000
+1694718854135	Sync.Engine.Tabs	INFO	Records: 1 applied, 1 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1694718854136	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1694718854138	Sync.Engine.Tabs	INFO	Posting 1 records of 1899 bytes with batch=true
+1694718854139	Sync.Collection	DEBUG	POST Length: 1899
+1694718854227	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/190528907/storage/tabs?batch=true&commit=true
+1694718854244	Sync.Engine.Bookmarks	DEBUG	Checking if server sync ID h-ENRpApXspJ matches existing
+1694718854248	Sync.Engine.Bookmarks	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1694718854249	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust
+1694718854262	Sync.Engine.Bookmarks.Mirror	DEBUG	Building local tree
+1694718854278	Sync.Engine.Bookmarks.Mirror	DEBUG	Building remote tree
+1694718854288	Sync.Engine.Bookmarks.Mirror	DEBUG	Building merged tree
+1694718854289	Sync.Engine.Bookmarks.Mirror	DEBUG	Applying merged tree
+1694718854289	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust took 40.652ms
+1694718854289	Sync.Engine.Bookmarks.Mirror	DEBUG	No changes detected in both mirror and Places
+1694718854290	Sync.Engine.Bookmarks	INFO	Uploading 0 outgoing records
+1694718854290	Sync.Engine.Bookmarks.BookmarkSyncUtils	DEBUG	pushChanges: Processed change records: {"weak":0,"skipped":0,"updated":0}
+1694718854291	Sync.Engine.Addons	DEBUG	Refreshing reconciler state
+1694718854291	Sync.AddonsReconciler	INFO	Refreshing global state from AddonManager.
+1694718854294	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Form Autofill (version=1.0.1, id=formautofill@mozilla.org)
+1694718854294	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Picture-In-Picture (version=1.0.0, id=pictureinpicture@mozilla.org)
+1694718854294	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Screenshots (version=39.0.1, id=screenshots@mozilla.org)
+1694718854294	Sync.AddonsReconciler	DEBUG	Rectifying state for addon WebCompat Reporter (version=1.5.1, id=webcompat-reporter@mozilla.org)
+1694718854294	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Web Compatibility Interventions (version=117.0.0, id=webcompat@mozilla.org)
+1694718854294	Sync.AddonsReconciler	DEBUG	Rectifying state for addon System theme — auto (version=1.3, id=default-theme@mozilla.org)
+1694718854294	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Add-ons Search Detection (version=2.0.0, id=addons-search-detection@mozilla.com)
+1694718854294	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Google (version=1.4, id=google@search.mozilla.org)
+1694718854294	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Amazon.com (version=1.6, id=amazondotcom@search.mozilla.org)
+1694718854294	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Wikipedia (en) (version=1.3, id=wikipedia@search.mozilla.org)
+1694718854295	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Bing (version=1.6, id=bing@search.mozilla.org)
+1694718854295	Sync.AddonsReconciler	DEBUG	Rectifying state for addon DuckDuckGo (version=1.4, id=ddg@search.mozilla.org)
+1694718854295	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Light (version=1.2, id=firefox-compact-light@mozilla.org)
+1694718854295	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark (version=1.2, id=firefox-compact-dark@mozilla.org)
+1694718854295	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Alpenglow (version=1.4, id=firefox-alpenglow@mozilla.org)
+1694718854295	Sync.AddonsReconciler	DEBUG	Rectifying state for addon eBay (version=1.4, id=ebay@search.mozilla.org)
+1694718854295	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Octotree - GitHub code tree (version=7.9.5, id=jid1-Om7eJGwA1U8Akg@jetpack)
+1694718854295	Sync.AddonsReconciler	DEBUG	Rectifying state for addon DarkTheme (version=4.3, id={99c277af-d778-4a0b-9faa-b1d8165f0a55})
+1694718854295	Sync.AddonsReconciler	DEBUG	Rectifying state for addon DuckDuckGo Privacy Essentials (version=2023.9.1, id=jid1-ZAdIEUB7XOzOJw@jetpack)
+1694718854295	Sync.AddonsReconciler	DEBUG	Rectifying state for addon React Developer Tools (version=4.27.8, id=@react-devtools)
+1694718854295	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Rust Search Extension (version=1.12.0, id={04188724-64d3-497b-a4fd-7caffe6eab29})
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon uBlock Origin (version=1.51.0, id=uBlock0@raymondhill.net)
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Hotkey Tabs (version=1.9.0, id=@hotkeytabs_release)
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Grammar Checker & Paraphraser – LanguageTool (version=7.1.13, id=languagetool-webextension@languagetool.org)
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon OneTab (version=1.77, id=extension@one-tab.com)
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark Reader Theme Purple (version=1.0, id={c668b3da-af5a-423a-9d8e-8ec9d13f262b})
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Vimium (version=1.67.7, id={d7742d87-e61d-4b78-b8a1-b469842139fa})
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Unofficial Hypothesis extension (version=1.470.0.2, id={7dc760e7-5cc5-4e76-8468-18b2b003f22a})
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon GNOME Shell integration (version=11.1, id=chrome-gnome-shell@gnome.org)
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Vimium C - All by Keyboard (version=1.99.995, id=vimium-c@gdh1995.cn)
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Python Search (version=1.1.0, id={41f75d60-8d80-4027-9603-9bdee75275cc})
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon 1Password – Password Manager (version=2.14.1, id={d634138d-c276-4fc8-924b-40a0ea21d284})
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Move Tab Hotkeys (version=2.2.0, id=move_tabs_hotkeys@jmmerz.github)
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Container Hotkeys (version=1.3, id={623c8754-ad92-4667-9acf-7241a2923b2f})
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Keplr (version=0.12.23, id=keplr-extension@keplr.app)
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Vim Vixen (version=1.2.3, id=vim-vixen@i-beam.org)
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Calendly: Meeting Scheduling Software (version=3.2.1.0, id=firefox_extension@calendly.com)
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Alpenglow Dark (version=1.1.1, id={9b615f11-c3a3-46bd-97a8-1721bb8122b9})
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon TinEye Reverse Image Search (version=2.0.4, id=tineye@ideeinc.com)
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon MetaMask (version=10.35.1, id=webextension@metamask.io)
+1694718854296	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Wappalyzer - Technology profiler (version=6.10.65, id=wappalyzer@crunchlabz.com)
+1694718854297	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Pale Night (version=2.0, id={490580e6-3cfc-4309-9fcd-ad15a2501c6b})
+1694718854297	Sync.AddonsReconciler	DEBUG	Rectifying state for addon New Tab Override (version=15.1.1, id=newtaboverride@agenedia.com)
+1694718854297	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Simple Translate (version=2.8.1, id=simple-translate@sienori)
+1694718854297	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Bookmark Shortcuts (version=1.2.1, id=bookmark-shortcuts@toolbar.org)
+1694718854297	Sync.AddonsReconciler	DEBUG	Rectifying state for addon PassFF (version=1.15, id=passff@invicem.pro)
+1694718854297	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark Theme v1 (version=3.0, id={fa952948-fd84-4841-84c5-8259eda8ba0f})
+1694718854297	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark Reader (version=4.9.65, id=addon@darkreader.org)
+1694718854297	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Phantom (version=23.5.0.1, id={7c42eea1-b3e4-4be4-a56f-82a5852b12dc})
+1694718854297	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Zotero Connector (version=5.0.111, id=zotero@chnm.gmu.edu)
+1694718854297	Sync.AddonsReconciler	DEBUG	Rectifying state for addon OpenH264 Video Codec provided by Cisco Systems, Inc. (version=2.3.2, id=gmp-gmpopenh264)
+1694718854298	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Widevine Content Decryption Module provided by Google Inc. (version=4.10.2557.0, id=gmp-widevinecdm)
+1694718854300	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1694718854302	Sync.Engine.Addons	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1694718854303	Sync.Engine.Addons	INFO	Uploading 0 outgoing records
+1694718854304	Sync.Engine.Addresses	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1694718854305	Sync.Engine.Addresses	INFO	Uploading 0 outgoing records
+1694718854306	Sync.Engine.CreditCards	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1694718854306	Sync.Engine.CreditCards	INFO	Uploading 0 outgoing records
+1694718854307	Sync.Engine.Forms	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1694718854307	Sync.Engine.Forms	INFO	Uploading 0 outgoing records
+1694718854307	Sync.Engine.History	DEBUG	Checking if server sync ID rbkHN90HFyUr matches existing
+1694718854309	Sync.Engine.History	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1694718854309	Sync.Engine.History	INFO	Uploading 0 outgoing records
+1694718854312	Sync.Engine.Extension-Storage	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1694718854313	Sync.Engine.Extension-Storage	INFO	Uploading 0 outgoing records
+1694718854314	Sync.Doctor	INFO	Skipping check of prefs - disabled via preferences
+1694718854314	Sync.Doctor	INFO	Skipping check of passwords - disabled via preferences
+1694718854314	Sync.Doctor	INFO	Skipping check of tabs - disabled via preferences
+1694718854314	Sync.Doctor	INFO	Skipping check of bookmarks - disabled via preferences
+1694718854314	Sync.Doctor	INFO	Skipping check of addons - disabled via preferences
+1694718854314	Sync.Doctor	INFO	Skipping check of addresses - disabled via preferences
+1694718854314	Sync.Doctor	INFO	Skipping check of creditcards - disabled via preferences
+1694718854314	Sync.Doctor	INFO	Skipping check of forms - disabled via preferences
+1694718854314	Sync.Doctor	INFO	Skipping check of history - disabled via preferences
+1694718854314	Sync.Doctor	INFO	Skipping check of extension-storage - disabled via preferences
+1694718854314	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1694718854314	Sync.Status	DEBUG	Status.sync: success.sync => success.sync
+1694718854314	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1694718854315	Sync.Synchronizer	INFO	Sync completed at 2023-09-14 12:14:14 after 0.56 secs.
+1694718854315	Sync.Declined	DEBUG	Handling remote declined: []
+1694718854315	Sync.Declined	DEBUG	Handling local declined: []
+1694718854315	Sync.Declined	DEBUG	Declined changed? false
+1694718854315	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1694718854316	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
