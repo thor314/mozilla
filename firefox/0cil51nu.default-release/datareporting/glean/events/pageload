@@ -13,3 +13,4 @@
 {"timestamp":260734981,"category":"perf","name":"page_load","extra":{"same_origin_nav":"false","fcp_time":"2648","response_time":"591","js_exec_time":"521","load_time":"2769","dns_lookup_time":"27","load_type":"LINK","http_ver":"2"},"execution_counter":14}
 {"timestamp":260743855,"category":"perf","name":"page_load","extra":{"response_time":"225","http_ver":"2","load_time":"2207","fcp_time":"1601","load_type":"HISTORY","js_exec_time":"166"},"execution_counter":14}
 {"timestamp":260748968,"category":"perf","name":"page_load","extra":{"same_origin_nav":"false","http_ver":"2","load_time":"1980","load_type":"LINK","response_time":"421","dns_lookup_time":"22","fcp_time":"1242","js_exec_time":"95"},"execution_counter":14}
+{"timestamp":262154828,"category":"perf","name":"page_load","extra":{"response_time":"140","same_origin_nav":"true","http_ver":"2","load_time":"460","fcp_time":"348","js_exec_time":"87","load_type":"LINK"},"execution_counter":14}
