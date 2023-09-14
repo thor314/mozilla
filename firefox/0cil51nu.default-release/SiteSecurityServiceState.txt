@@ -62,9 +62,10 @@ signaler-pa.clients6.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19614	17
 uniswap.org	0	19613	1710192475152,1,1
 peoplestackwebexperiments-pa.clients6.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19614	1705611005503,1,1
 caps.twitter.com^partitionKey=%28https%2Ctwitter.com%29	1	19614	2325863600811,1,0
+raw.githubusercontent.com^partitionKey=%28https%2Craw.githubusercontent.com%29	0	19614	1726266360019,1,0
 duckduckgo.com^firstPartyDomain=ddg.search.suggestions.mozilla	0	19612	1726081533044,1,0
 skeditor-server-app.skiff.com^partitionKey=%28https%2Cskiff.com%29	0	19613	1726174628769,1,1
-developer.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1726265585090,1,0
+developer.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1757802333081,1,0
 partiful.com^partitionKey=%28https%2Cpartiful.com%29	0	19614	1757800340313,1,0
 www.google.com^partitionKey=%28https%2Cgoogle.com%29	3	19614	1726005760192,1,0
 www.zotero.org^partitionKey=%28https%2Czotero.org%29	0	19612	1726083251744,1,1
@@ -85,6 +86,7 @@ abnb.me^partitionKey=%28https%2Cabnb.me%29	0	19613	1726171640190,1,1
 ads-api.twitter.com^partitionKey=%28https%2Ctwitter.com%29	1	19614	2325856800407,1,0
 ogs.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19613	1726174291652,1,0
 support.1password.com	0	19612	1726091582668,1,1
+bugzilla.mozilla.org	0	19614	1726265717268,1,0
 news.ycombinator.com^partitionKey=%28https%2Cycombinator.com%29	0	19613	1726185580142,1,0
 go.dev^partitionKey=%28https%2Cgo.dev%29	1	19612	1726012190006,1,1
 duckduckgo.com	2	19614	1726265001203,1,0
@@ -124,11 +126,13 @@ system76.com^partitionKey=%28https%2Csystem76.com%29	0	19613	1726170964329,1,0
 devconnect.org^partitionKey=%28https%2Cdevconnect.org%29	0	19613	1726175181530,1,0
 relay-proxy.skiff.com^partitionKey=%28https%2Cskiff.com%29	0	19613	1726174626345,1,1
 classify-client.services.mozilla.com	2	19614	1726252699292,1,0
+bcd.developer.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1710282211716,1,1
 guc3-spclient.spotify.com^partitionKey=%28https%2Cspotify.com%29	0	19612	1726082986563,1,0
 go.microsoft.com^partitionKey=%28https%2Cmicrosoft.com%29	0	19612	1726082450912,1,1
 www.mozilla.org^partitionKey=%28http%2Cmozilla.org%29:HSTS	0	19611	1726005751886,1,0
 uniswap.org^partitionKey=%28https%2Cuniswap.org%29	0	19613	1710192474542,1,1
 graphql.accounts.firefox.com^partitionKey=%28https%2Cfirefox.com%29	0	19612	1726081421521,1,1
+firefox-source-docs.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1757802402195,1,1
 watchtower.1password.com	2	19614	1726258395784,1,1
 api.twitter.com^partitionKey=%28https%2Ctwitter.com%29	2	19614	2325859669696,1,0
 calendar.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19614	1726174286031,1,1
@@ -149,4 +153,5 @@ code.visualstudio.com^partitionKey=%28https%2Cvisualstudio.com%29	0	19612	172602
 zkmesh.substack.com^partitionKey=%28https%2Csubstack.com%29	0	19613	1726164680540,1,0
 assets-cms.kraken.com^partitionKey=%28https%2Ckraken.com%29	0	19613	1726174266241,1,1
 ton.twitter.com^partitionKey=%28https%2Ctwitter.com%29	2	19614	2325866854225,1,0
+bugzilla.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1726265715669,1,0
 www.metalevel.at^partitionKey=%28https%2Cmetalevel.at%29	0	19613	1757700868815,1,1
