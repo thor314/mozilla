@@ -107,3 +107,15 @@ true
 0
 true
 #
+
+https://discourse.mozilla.org/
+https://discourse.mozilla.org/service-worker-aa0c262339bf89f99f3be35c516791101121756b173dc677227bb3a13fef240b.js
+true
+{0c383444-98ea-4bf7-ac8e-504cfbea0b72}
+0
+1694732730575648
+1694732730576456
+1694732730137642
+0
+true
+#
