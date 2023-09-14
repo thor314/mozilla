@@ -12,8 +12,8 @@ cdn.lu.ma^partitionKey=%28https%2Clu.ma%29	0	19613	1697232699026,1,0
 phishing-detection.metafi.codefi.network	2	19614	1710274395141,1,1
 zapper.fi^partitionKey=%28https%2Czapper.fi%29	0	19613	1757712166618,1,0
 launchpad.net^partitionKey=%28https%2Claunchpad.net%29	0	19612	1710029718537,1,0
-addons.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1726265269423,1,0
-incoming.telemetry.mozilla.org	3	19614	1726178866441,1,0
+addons.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1726265378396,1,0
+incoming.telemetry.mozilla.org	3	19614	1726265423197,1,0
 vscode.dev^partitionKey=%28https%2Cvscode.dev%29	0	19612	1726085612520,1,1
 tasks-pa.clients6.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19614	1705524691680,1,1
 packages.microsoft.com^partitionKey=%28https%2Cmicrosoft.com%29	0	19612	1726082451124,1,1
@@ -64,6 +64,7 @@ peoplestackwebexperiments-pa.clients6.google.com^partitionKey=%28https%2Cgoogle.
 caps.twitter.com^partitionKey=%28https%2Ctwitter.com%29	1	19614	2325863600811,1,0
 duckduckgo.com^firstPartyDomain=ddg.search.suggestions.mozilla	0	19612	1726081533044,1,0
 skeditor-server-app.skiff.com^partitionKey=%28https%2Cskiff.com%29	0	19613	1726174628769,1,1
+developer.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1726265585090,1,0
 partiful.com^partitionKey=%28https%2Cpartiful.com%29	0	19614	1757800340313,1,0
 www.google.com^partitionKey=%28https%2Cgoogle.com%29	3	19614	1726005760192,1,0
 www.zotero.org^partitionKey=%28https%2Czotero.org%29	0	19612	1726083251744,1,1
