@@ -6,13 +6,14 @@ c.1password.com	1	19613	1757707479821,1,1
 www.howtogeek.com^partitionKey=%28https%2Chowtogeek.com%29	0	19611	1726007403514,1,1
 profile.accounts.firefox.com	2	19614	1726258807495,1,1
 api.accounts.firefox.com^partitionKey=%28https%2Cfirefox.com%29	0	19612	1726081376743,1,1
+dev.to^partitionKey=%28https%2Cdev.to%29	0	19614	1726290342989,1,0
 contile.services.mozilla.com	1	19612	1726005752444,1,0
 tweetdeck.twitter.com^partitionKey=%28https%2Ctwitter.com%29	1	19613	2325784106778,1,0
 cdn.lu.ma^partitionKey=%28https%2Clu.ma%29	0	19613	1697232699026,1,0
 phishing-detection.metafi.codefi.network	2	19614	1710274395141,1,1
 zapper.fi^partitionKey=%28https%2Czapper.fi%29	0	19613	1757712166618,1,0
 launchpad.net^partitionKey=%28https%2Claunchpad.net%29	0	19612	1710029718537,1,0
-addons.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1726265378396,1,0
+addons.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1726268801485,1,1
 incoming.telemetry.mozilla.org	3	19614	1726265423197,1,0
 vscode.dev^partitionKey=%28https%2Cvscode.dev%29	1	19614	1726267065355,1,1
 tasks-pa.clients6.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19614	1705524691680,1,1
@@ -31,6 +32,7 @@ flathub.org^partitionKey=%28https%2Cflathub.org%29	0	19613	1726201454609,1,0
 cdn.statically.io	0	19612	1726081470388,1,1
 assets.kraken.com^partitionKey=%28https%2Ckraken.com%29	0	19613	1726174266252,1,1
 api.accounts.firefox.com	2	19614	1726258807758,1,1
+discourse.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1710457528384,1,1
 app.uniswap.org^partitionKey=%28https%2Cuniswap.org%29	0	19613	1710192476916,1,1
 firefox-api-proxy.cdn.mozilla.net	0	19612	1757617363286,1,0
 earthly.dev^partitionKey=%28https%2Cearthly.dev%29	0	19613	1726164766259,1,0
@@ -96,10 +98,11 @@ duckduckgo.com	2	19614	1726265001203,1,0
 accounts.spotify.com^partitionKey=%28https%2Cspotify.com%29	0	19612	1726082984451,1,0
 app.guesty.com^partitionKey=%28https%2Cguesty.com%29	0	19613	1726176998549,1,1
 support.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1726265010132,1,0
+dev.to	0	19614	1726290343795,1,0
 www.maketecheasier.com^partitionKey=%28https%2Cmaketecheasier.com%29	0	19613	1726179776511,1,0
 location.services.mozilla.com:HSTS	0	19611	1726005751832,1,1
 app.skiff.com^partitionKey=%28https%2Cskiff.com%29	0	19613	1726174624884,1,1
-fonts.googleapis.com	2	19614	1726173910558,1,0
+fonts.googleapis.com	2	19614	1726268730051,1,0
 accounts.google.com^partitionKey=%28https%2Cgoogle.com%29	3	19614	1726260610622,1,1
 repo.zotero.org	2	19614	1726260595083,1,1
 open.spotify.com^partitionKey=%28https%2Cspotify.com%29	0	19612	1726082993253,1,0
@@ -141,6 +144,7 @@ api.twitter.com^partitionKey=%28https%2Ctwitter.com%29	2	19614	2325859669696,1,0
 calendar.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19614	1726174286031,1,1
 firefox.settings.services.mozilla.com	3	19614	1726264980646,1,0
 substack.com^partitionKey=%28https%2Csubstack.com%29	0	19613	1726164962967,1,0
+cdn.discourse-prod.itsre-apps.mozit.cloud	0	19614	1710457529549,1,1
 spocs.getpocket.com	1	19612	1757541752703,1,0
 account.system76.com^partitionKey=%28https%2Csystem76.com%29	0	19613	1726170966240,1,0
 code.visualstudio.com	1	19614	1726085562751,1,1
