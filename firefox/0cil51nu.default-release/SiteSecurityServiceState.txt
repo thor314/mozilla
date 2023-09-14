@@ -13,7 +13,7 @@ cdn.lu.ma^partitionKey=%28https%2Clu.ma%29	0	19613	1697232699026,1,0
 phishing-detection.metafi.codefi.network	2	19614	1710274395141,1,1
 zapper.fi^partitionKey=%28https%2Czapper.fi%29	0	19613	1757712166618,1,0
 launchpad.net^partitionKey=%28https%2Claunchpad.net%29	0	19612	1710029718537,1,0
-addons.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1726268801485,1,1
+addons.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1726270762488,1,0
 incoming.telemetry.mozilla.org	3	19614	1726265423197,1,0
 vscode.dev^partitionKey=%28https%2Cvscode.dev%29	1	19614	1726267065355,1,1
 tasks-pa.clients6.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19614	1705524691680,1,1
@@ -131,6 +131,7 @@ bnc.lt^partitionKey=%28https%2Cbnc.lt%29	0	19613	1726171640354,1,1
 system76.com^partitionKey=%28https%2Csystem76.com%29	0	19613	1726170964329,1,0
 devconnect.org^partitionKey=%28https%2Cdevconnect.org%29	0	19613	1726175181530,1,0
 relay-proxy.skiff.com^partitionKey=%28https%2Cskiff.com%29	0	19613	1726174626345,1,1
+prod.outgoing.prod.webservices.mozgcp.net^partitionKey=%28https%2Cmozgcp.net%29	0	19614	1726270648364,1,0
 classify-client.services.mozilla.com	2	19614	1726252699292,1,0
 bcd.developer.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1710282211716,1,1
 guc3-spclient.spotify.com^partitionKey=%28https%2Cspotify.com%29	0	19612	1726082986563,1,0
