@@ -2,7 +2,7 @@ aus5.mozilla.org	3	19614	1726264981790,1,0
 collector.github.com^partitionKey=%28https%2Cgithub.com%29	1	19612	2325608308380,1,0
 www.recurse.com^partitionKey=%28https%2Crecurse.com%29	0	19615	1757808450453,1,1
 espresso-pa.clients6.google.com^partitionKey=%28https%2Cgoogle.com%29	1	19614	1705611035092,1,1
-tcr9i.chat.openai.com^partitionKey=%28https%2Copenai.com%29	1	19614	1726254173913,1,1
+tcr9i.chat.openai.com^partitionKey=%28https%2Copenai.com%29	2	19615	1726254173913,1,1
 c.1password.com	1	19613	1757707479821,1,1
 www.howtogeek.com^partitionKey=%28https%2Chowtogeek.com%29	0	19611	1726007403514,1,1
 profile.accounts.firefox.com	3	19615	1726258807495,1,1
@@ -120,14 +120,14 @@ addons.mozilla.org	3	19615	1726270304333,1,1
 www.kraken.com^partitionKey=%28https%2Ckraken.com%29	0	19613	1726174265728,1,1
 system76.com	0	19613	1726171014311,1,0
 substackcdn.com	0	19613	1726164959655,1,0
-openai.com^partitionKey=%28https%2Copenai.com%29	1	19614	1726087430917,1,1
+openai.com^partitionKey=%28https%2Copenai.com%29	2	19615	1726087430917,1,1
 stackoverflow.com^partitionKey=%28https%2Cstackoverflow.com%29	0	19614	1710277382009,1,0
 opencollective.com^partitionKey=%28https%2Copencollective.com%29	0	19615	1710290651564,1,1
 peoplestack-pa.clients6.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19614	1705611006021,1,1
 www.amazon.com^partitionKey=%28https%2Camazon.com%29	1	19614	1742105437048,1,1
 app.uniswap.org	0	19613	1710192478540,1,1
 auth.tripsha.com^partitionKey=%28https%2Ctripsha.com%29	0	19613	1726176009493,1,1
-shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla	2	19614	1726258393357,1,1
+shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla	3	19615	1726258393357,1,1
 twitter.com^partitionKey=%28https%2Ctwitter.com%29	3	19615	2325859588729,1,0
 1password.com^partitionKey=%28http%2C1password.com%29	0	19612	1726026694535,1,0
 api.lu.ma^partitionKey=%28https%2Clu.ma%29	0	19613	1697232699776,1,0
