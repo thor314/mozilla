@@ -9,7 +9,7 @@ profile.accounts.firefox.com	3	19615	1726258807495,1,1
 api.accounts.firefox.com^partitionKey=%28https%2Cfirefox.com%29	0	19612	1726081376743,1,1
 dev.to^partitionKey=%28https%2Cdev.to%29	0	19614	1726290342989,1,0
 contile.services.mozilla.com	1	19612	1726005752444,1,0
-tweetdeck.twitter.com^partitionKey=%28https%2Ctwitter.com%29	1	19613	2325784106778,1,0
+tweetdeck.twitter.com^partitionKey=%28https%2Ctwitter.com%29	2	19615	2325884799535,1,0
 movementgyms.com^partitionKey=%28https%2Cmovementgyms.com%29	0	19615	1757809900661,1,1
 cdn.lu.ma^partitionKey=%28https%2Clu.ma%29	0	19613	1697232699026,1,0
 phishing-detection.metafi.codefi.network	3	19615	1710274395141,1,1
@@ -170,6 +170,6 @@ login.corp.google.com	2	19614	1702321678938,1,0
 code.visualstudio.com^partitionKey=%28https%2Cvisualstudio.com%29	1	19614	1726267147453,1,1
 zkmesh.substack.com^partitionKey=%28https%2Csubstack.com%29	0	19613	1726164680540,1,0
 assets-cms.kraken.com^partitionKey=%28https%2Ckraken.com%29	0	19613	1726174266241,1,1
-ton.twitter.com^partitionKey=%28https%2Ctwitter.com%29	2	19614	2325866854225,1,0
+ton.twitter.com^partitionKey=%28https%2Ctwitter.com%29	3	19615	2325866854225,1,0
 bugzilla.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1726265715669,1,0
 www.metalevel.at^partitionKey=%28https%2Cmetalevel.at%29	0	19613	1757700868815,1,1
