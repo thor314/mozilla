@@ -33,7 +33,7 @@ dl.flathub.org^partitionKey=%28https%2Cflathub.org%29	0	19613	1726201457127,1,0
 flathub.org^partitionKey=%28https%2Cflathub.org%29	0	19613	1726201454609,1,0
 cdn.statically.io	0	19612	1726081470388,1,1
 assets.kraken.com^partitionKey=%28https%2Ckraken.com%29	0	19613	1726174266252,1,1
-api.accounts.firefox.com	2	19614	1726258807758,1,1
+api.accounts.firefox.com	3	19615	1726258807758,1,1
 discourse.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1710457528384,1,1
 app.uniswap.org^partitionKey=%28https%2Cuniswap.org%29	0	19613	1710192476916,1,1
 firefox-api-proxy.cdn.mozilla.net	0	19612	1757617363286,1,0
