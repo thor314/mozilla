@@ -46,6 +46,7 @@ static.corp.google.com	2	19614	1726081678846,1,1
 duckduckgo.com^partitionKey=%28https%2Cduckduckgo.com%29	3	19615	1726265001209,1,0
 vi.stackexchange.com^partitionKey=%28https%2Cstackexchange.com%29	0	19614	1710277355178,1,0
 account.proton.me^partitionKey=%28https%2Cproton.me%29	2	19614	1726174085192,1,1
+next-images.opencollective.com^partitionKey=%28https%2Copencollective.com%29	0	19615	1757810652308,1,0
 github.dev^partitionKey=%28https%2Cgithub.dev%29	0	19615	1726272443378,1,1
 linuxize.com^partitionKey=%28https%2Clinuxize.com%29	0	19611	1710022645156,1,1
 data.amazon.com^partitionKey=%28https%2Camazon.com%29	0	19613	1742105683848,1,1
@@ -85,7 +86,7 @@ external-content.duckduckgo.com^partitionKey=%28https%2Cduckduckgo.com%29	3	1961
 auth0.openai.com^partitionKey=%28https%2Copenai.com%29	0	19612	1726087430328,1,1
 prestwich.substack.com^partitionKey=%28https%2Csubstack.com%29	0	19613	1726165008373,1,0
 discord.com^partitionKey=%28https%2Cdiscord.com%29	1	19613	1726175286943,1,1
-services.addons.mozilla.org	2	19614	1726264980786,1,0
+services.addons.mozilla.org	3	19615	1726264980786,1,0
 mail.proton.me^partitionKey=%28https%2Cproton.me%29	2	19614	1726174080698,1,1
 support.1password.com^partitionKey=%28http%2C1password.com%29	0	19612	1726091581202,1,1
 completion.amazon.com^partitionKey=%28https%2Camazon.com%29	0	19613	1742105465240,1,1
@@ -115,12 +116,13 @@ publicsuffix.org	0	19612	1710097445848,1,1
 www.google.com^firstPartyDomain=google-b-1-d.search.suggestions.mozilla	1	19612	1726005759037,1,0
 www.microsoft.com^partitionKey=%28https%2Cmicrosoft.com%29	0	19612	1726082443930,1,0
 marketplace.visualstudio.com^partitionKey=%28https%2Cvisualstudio.com%29	0	19612	1726026696530,1,1
-addons.mozilla.org	2	19614	1726270304333,1,1
+addons.mozilla.org	3	19615	1726270304333,1,1
 www.kraken.com^partitionKey=%28https%2Ckraken.com%29	0	19613	1726174265728,1,1
 system76.com	0	19613	1726171014311,1,0
 substackcdn.com	0	19613	1726164959655,1,0
 openai.com^partitionKey=%28https%2Copenai.com%29	1	19614	1726087430917,1,1
 stackoverflow.com^partitionKey=%28https%2Cstackoverflow.com%29	0	19614	1710277382009,1,0
+opencollective.com^partitionKey=%28https%2Copencollective.com%29	0	19615	1710290651564,1,1
 peoplestack-pa.clients6.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19614	1705611006021,1,1
 www.amazon.com^partitionKey=%28https%2Camazon.com%29	1	19614	1742105437048,1,1
 app.uniswap.org	0	19613	1710192478540,1,1
