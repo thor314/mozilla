@@ -17,7 +17,7 @@ zapper.fi^partitionKey=%28https%2Czapper.fi%29	0	19613	1757712166618,1,0
 launchpad.net^partitionKey=%28https%2Claunchpad.net%29	0	19612	1710029718537,1,0
 addons.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1726270762488,1,0
 incoming.telemetry.mozilla.org	4	19615	1726265423197,1,0
-vscode.dev^partitionKey=%28https%2Cvscode.dev%29	1	19614	1726267065355,1,1
+vscode.dev^partitionKey=%28https%2Cvscode.dev%29	2	19615	1726267065355,1,1
 tasks-pa.clients6.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19614	1705524691680,1,1
 packages.microsoft.com^partitionKey=%28https%2Cmicrosoft.com%29	0	19612	1726082451124,1,1
 extensionworkshop.com^partitionKey=%28https%2Cextensionworkshop.com%29	0	19614	1726266721711,1,1
