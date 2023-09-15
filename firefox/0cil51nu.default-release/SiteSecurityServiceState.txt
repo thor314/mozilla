@@ -102,7 +102,7 @@ go.dev^partitionKey=%28https%2Cgo.dev%29	1	19612	1726012190006,1,1
 duckduckgo.com	3	19615	1726265001203,1,0
 accounts.spotify.com^partitionKey=%28https%2Cspotify.com%29	0	19612	1726082984451,1,0
 app.guesty.com^partitionKey=%28https%2Cguesty.com%29	0	19613	1726176998549,1,1
-support.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1726265010132,1,0
+support.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	1	19615	1726265010132,1,0
 dev.to	0	19614	1726290343795,1,0
 www.maketecheasier.com^partitionKey=%28https%2Cmaketecheasier.com%29	0	19613	1726179776511,1,0
 location.services.mozilla.com:HSTS	0	19611	1726005751832,1,1
