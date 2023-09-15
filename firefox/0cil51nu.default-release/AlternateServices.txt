@@ -11,7 +11,7 @@ https:apis.google.com:443:.:^partitionKey=%28https%2Cgoogle.com%29:3	3	19614	htt
 https:www.googletagmanager.com:443:.:^partitionKey=%28https%2Caskubuntu.com%29:3	1	19613	https:www.googletagmanager.com:443:www.googletagmanager.com:443::n:1697063239:h3:y:1694469750:n:^partitionKey=%28https%2Caskubuntu.com%29:|n:y:
 https:bshr.ezodn.com:443:.:^partitionKey=%28https%2Clinuxize.com%29:3	0	19611	https:bshr.ezodn.com:443:bshr.ezodn.com:443::n:1694562290:h3:y:1694469750:n:^partitionKey=%28https%2Clinuxize.com%29:|n:y:
 https:go.ezodn.com:443:.:^partitionKey=%28https%2Clinuxize.com%29:3	0	19611	https:go.ezodn.com:443:go.ezodn.com:443::n:1694557231:h3:y:1694469750:n:^partitionKey=%28https%2Clinuxize.com%29:|n:y:
-https:push.services.mozilla.com:443:.::3	4	19615	https:push.services.mozilla.com:443:push.services.mozilla.com:443::n:1697335004:h3:y:1694469750:n::|n:y:
+https:push.services.mozilla.com:443:.::3	4	19615	https:push.services.mozilla.com:443:push.services.mozilla.com:443::n:1697338610:h3:y:1694469750:n::|n:y:
 https:www.gstatic.com:443:.:^partitionKey=%28https%2Clinuxize.com%29:3	0	19611	https:www.gstatic.com:443:www.gstatic.com:443::n:1697062659:h3:y:1694469750:n:^partitionKey=%28https%2Clinuxize.com%29:|n:y:
 https:lcd-secret.keplr.app:443:.::3	0	19612	https:lcd-secret.keplr.app:443:lcd-secret.keplr.app:443::n:1694545478:h3:n:1694545341:n::|n:y:
 https:www.google.com:443:.:^partitionKey=%28https%2Cdevicetests.com%29:3	0	19611	https:www.google.com:443:www.google.com:443::n:1697067896:h3:y:1694469750:n:^partitionKey=%28https%2Cdevicetests.com%29:|n:y:
@@ -98,7 +98,7 @@ https:0556b7c7eed1d10711ec3e690d1e3dec.safeframe.googlesyndication.com:443:.:^pa
 https:cdnjs.cloudflare.com:443:.:^partitionKey=%28https%2Clinuxize.com%29:3	0	19611	https:cdnjs.cloudflare.com:443:cdnjs.cloudflare.com:443::n:1694557204:h3:y:1694469750:n:^partitionKey=%28https%2Clinuxize.com%29:|n:y:
 https:www.googletagmanager.com:443:.:^partitionKey=%28https%2Cgo.dev%29:3	1	19612	https:www.googletagmanager.com:443:www.googletagmanager.com:443::n:1697070069:h3:y:1694472616:n:^partitionKey=%28https%2Cgo.dev%29:|n:y:
 https:adservice.google.com:443:.:^partitionKey=%28https%2Clinuxize.com%29:3	0	19611	https:adservice.google.com:443:adservice.google.com:443::n:1697062888:h3:y:1694470733:n:^partitionKey=%28https%2Clinuxize.com%29:|n:y:
-https:safebrowsing.googleapis.com:443:.:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:3	4	19615	https:safebrowsing.googleapis.com:443:safebrowsing.googleapis.com:443::n:1697338335:h3:y:1694469750:n:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:|n:y:
+https:safebrowsing.googleapis.com:443:.:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:3	4	19615	https:safebrowsing.googleapis.com:443:safebrowsing.googleapis.com:443::n:1697338590:h3:y:1694469750:n:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:|n:y:
 https:fonts.gstatic.com:443:.:^partitionKey=%28https%2Ctwitter.com%29:3	0	19612	https:fonts.gstatic.com:443:fonts.gstatic.com:443::n:1697137590:h3:y:1694545341:n:^partitionKey=%28https%2Ctwitter.com%29:|n:y:
 https:i.ytimg.com:443:.:^partitionKey=%28https%2Cgoogle.com%29:3	1	19612	https:i.ytimg.com:443:i.ytimg.com:443::n:1697074226:h3:y:1694469750:n:^partitionKey=%28https%2Cgoogle.com%29:|n:y:
 https:lexicon.33across.com:443:.:^partitionKey=%28https%2Cdevicetests.com%29:3	0	19611	https:lexicon.33across.com:443:lexicon.33across.com:443::n:1697062126:h3:y:1694469750:n:^partitionKey=%28https%2Cdevicetests.com%29:|n:y:
