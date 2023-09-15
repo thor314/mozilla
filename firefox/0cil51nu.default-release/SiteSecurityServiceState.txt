@@ -10,6 +10,7 @@ api.accounts.firefox.com^partitionKey=%28https%2Cfirefox.com%29	0	19612	17260813
 dev.to^partitionKey=%28https%2Cdev.to%29	0	19614	1726290342989,1,0
 contile.services.mozilla.com	1	19612	1726005752444,1,0
 tweetdeck.twitter.com^partitionKey=%28https%2Ctwitter.com%29	1	19613	2325784106778,1,0
+movementgyms.com^partitionKey=%28https%2Cmovementgyms.com%29	0	19615	1757809900661,1,1
 cdn.lu.ma^partitionKey=%28https%2Clu.ma%29	0	19613	1697232699026,1,0
 phishing-detection.metafi.codefi.network	3	19615	1710274395141,1,1
 zapper.fi^partitionKey=%28https%2Czapper.fi%29	0	19613	1757712166618,1,0
@@ -51,7 +52,7 @@ data.amazon.com^partitionKey=%28https%2Camazon.com%29	0	19613	1742105683848,1,1
 account.proton.me	0	19612	1726081680411,1,1
 alive.github.com^partitionKey=%28https%2Cgithub.com%29	4	19615	1726260603987,1,0
 www.astralcodexten.com^partitionKey=%28https%2Castralcodexten.com%29	0	19613	1726165017155,1,0
-staticcdn.duckduckgo.com	2	19614	1726255744988,1,0
+staticcdn.duckduckgo.com	3	19615	1726255744988,1,0
 contacts.google.com^partitionKey=%28https%2Cgoogle.com%29	2	19614	1726260607695,1,0
 cdn.jsdelivr.net	0	19612	1726081443511,1,1
 docs.google.com^partitionKey=%28https%2Cgoogle.com%29	1	19614	1726260597575,1,1
@@ -71,9 +72,9 @@ caps.twitter.com^partitionKey=%28https%2Ctwitter.com%29	1	19614	2325863600811,1,
 raw.githubusercontent.com^partitionKey=%28https%2Craw.githubusercontent.com%29	0	19614	1726266360019,1,0
 duckduckgo.com^firstPartyDomain=ddg.search.suggestions.mozilla	0	19612	1726081533044,1,0
 skeditor-server-app.skiff.com^partitionKey=%28https%2Cskiff.com%29	0	19613	1726174628769,1,1
-developer.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	19614	1757806461667,1,0
+developer.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	1	19615	1757806461667,1,0
 extensionworkshop.com	0	19614	1726266722255,1,1
-partiful.com^partitionKey=%28https%2Cpartiful.com%29	0	19614	1757800340313,1,0
+partiful.com^partitionKey=%28https%2Cpartiful.com%29	1	19615	1757800340313,1,0
 www.google.com^partitionKey=%28https%2Cgoogle.com%29	3	19614	1726005760192,1,0
 www.zotero.org^partitionKey=%28https%2Czotero.org%29	0	19612	1726083251744,1,1
 gas-api.metaswap.codefi.network	0	19613	1710190852622,1,1
